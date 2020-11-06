@@ -1,0 +1,56 @@
+.cubo
+    .cara
+        position: absolute
+        text-align: center
+        line-height: $general-height
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+        font-size: 40px
+        opacity: .8
+
+#superior
+    background-color: $top-color
+    transform: rotateX(90deg) translateZ(150px)
+    img
+        width: $img-width
+        height: $img-height
+        margin-top: $img-margin
+
+#frente
+    background-color: $front-color
+    transform: translateZ(150px)
+    img
+        width: $img-width
+        height: $img-height
+        margin-top: $img-margin
+
+#atras
+    background-color: $back-color
+    transform: rotateX(180deg) rotateY(180deg) translateZ(-150px)
+    img
+        width: $img-width
+        height: $img-height
+        margin-top: $img-margin
+
+#derecha
+    background-color: $right-color
+    transform: rotateX(180deg) rotateY(90deg) translateZ(150px)
+    img
+        width: $img-width
+        height: $img-height
+        margin-top: $img-margin
+
+#inferior
+    background-color: $bottom-color
+    transform: rotateX(-90deg) translateZ(150px)
+    img
+        width: $img-width
+        height: $img-height
+        margin-top: $img-margin
+
+#izquierda
+    background-color: $left-color
+    transform: rotateX(180deg) rotateY(-90deg) translateZ(150px)
+    img
+        width: $img-width
+        height: $img-height
+        margin-top: $img-margin
